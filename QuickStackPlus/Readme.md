@@ -70,6 +70,7 @@
 | #    |Both | /modDye # dye| All text after '#' consider as comment.|
 | $    |Both | /food.+$IsIngredient == true | ConditionalExpression| 
 | %    |Label| /modGunMelee %2<br>/modGun %1<br>/modMelee<br>/mod %-1 | Container priority. Orderby descending. default=0.|
+
 * All matches are case insensitive.
 
 ### ConditionalExpression
