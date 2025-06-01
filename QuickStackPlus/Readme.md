@@ -11,6 +11,7 @@
     * [Alt+QuickStack button] to reload config.
 
 ## Lock states
+
 | Marker          | Name                 | memo  |
 | :----           | :---                 | :---- |
 | Red Brackets    | LockedSlot           | from vanilla. |
@@ -63,6 +64,7 @@
 | !    |Both | !ammoGasCan<br> !/modArmor<br>!@Localized Name|Negate match. Matched item is not QuickStacked.|
 | #    |Label| #Reserved | Ignore this chest from QuickStack/restocking.|
 
+
 |Middle|At   |Example|Function|
 |:----:|:---:|:--    |:--     |
 | #    |Both | /modDye # dye| All text after '#' consider as comment.|
@@ -77,8 +79,9 @@
 * OP and VALUE canbe omitted with boolean attribute.
 
 #### ATTR : Supported attributes
+
 |Attribute       | Type  | memo |
-|:--             | :--   | :-- |
+|:--             | :--   | :--  |
 |IsIngredient    | bool  | Has recipe which use this.|
 |HasRecipe       | bool  | Can craft with recipe. |
 |Quality         | int   | 
@@ -88,14 +91,15 @@
 #### OP : Operands
 * Standards : `==, !=, <=, >=, < , >`
 
-|string Operand | function |
-| :--:     | :--           |
-| ^=       | StartsWith    |
-| $=       | EndsWith      |
-| *=       | Contains      |
-| ~=       | Contains(CSV) |
+|string Operand | function      |
+| :--:          | :--           |
+| ^=            | StartsWith    |
+| $=            | EndsWith      |
+| *=            | Contains      |
+| ~=            | Contains(CSV) |
 
 #### VALUE
+
 | type   | value example |
 | :--:   | :--           |
 | bool   | true, false   |
