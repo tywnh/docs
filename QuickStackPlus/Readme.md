@@ -89,15 +89,15 @@
 |PercentUsesLeft | float | 0.0-1.0 |
 |Prop:propName   |       | Property tag value.|
 
-#### OP : Operands
+#### OP : Operators
 * Standards : `==, !=, <=, >=, < , >`
 
-|string Operand | function      |
-| :--:          | :--           |
-| ^=            | StartsWith    |
-| $=            | EndsWith      |
-| *=            | Contains      |
-| ~=            | Contains(CSV) |
+|string Operators | function      |
+| :--:            | :--           |
+| ^=              | StartsWith    |
+| $=              | EndsWith      |
+| *=              | Contains      |
+| ~=              | Contains(CSV) |
 
 #### VALUE
 
@@ -142,7 +142,7 @@
 * Select nRestock from action menu or Alt+RMB item to toggle amount of restock.
     * Default cycle is 0, half, full, ClassLock
 * ClassLocked items are not restocked.
-* To specify exact number, edit Restock.txt
+* To specify exact number, edit QuickRestock.txt
 ### RestockFile
 * Filename : QuickRestock.txt
 * Syntax : `[NUM](,num,...) <ItemClassName>`
@@ -170,6 +170,14 @@
 
 
 ## Changelog
+### 2025.07/04 v2.0.1
+* for v2.0
+* Update dev env and rebuild.
+* Not Tested.
+
+### 2025.06/03 v1.2.26
+* Remove unused file(Restock.txt.default) from archive.
+
 ### 2025.05/30 v1.2.25
 * Change config path.
 * Change PatternFile path.
